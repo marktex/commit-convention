@@ -22,7 +22,7 @@ if (!COMMIT_REG.test(message)) {
   console.error(
       `  ${chalk.bgRed.white(' ERROR ')} ${chalk.red(`invalid commit message format.`)}\n\n` 
       + chalk.red(`  Proper commit message format is required for automated changelog generation. Examples:\n\n`) 
-      + `    ${chalk.green(`ffeat(pencil): add 'graphiteWidth' option`)}\n` 
+      + `    ${chalk.green(`feat(pencil): add 'graphiteWidth' option`)}\n` 
       + `    ${chalk.green(`fix(graphite): stop graphite breaking when width < 0.1 (close #28)`)}\n\n` 
       + chalk.red(`  See .github/commit-convention.md for more details.\n`)
   )
